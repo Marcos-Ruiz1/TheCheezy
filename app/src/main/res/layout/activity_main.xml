@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/purple_grey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="461dp"
+        android:src="@drawable/thecheezery"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/dusty_white"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/dusty_white"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/welcome_text"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:padding="15dp"
+        android:textColor="@color/dusty_white"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/welcome_description"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/button_get_started"
+        android:layout_width="219dp"
+        android:layout_height="40dp"
+        android:text="@string/button_start"
+        android:background="@drawable/round_button"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
